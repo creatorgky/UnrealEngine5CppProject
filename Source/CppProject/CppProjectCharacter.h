@@ -48,6 +48,9 @@ protected:
 	/** Mouse Look Input Action */
 	UPROPERTY(EditAnywhere, Category ="Input")
 	class UInputAction* MouseLookAction;
+
+	UPROPERTY(EditDefaultsOnly, Category="Input")
+	float Health = 100.0f;
 	
 public:
 	ACppProjectCharacter();
